@@ -1,7 +1,7 @@
 window.onload = function () {
     var inputEl = document.getElementById('input');
     if (window.location.hash.length) {
-        inputEl.value = window.location.hash;
+        inputEl.value = window.location.hash.slice(1);
     }
     var outputEl = document.getElementById('output');
 
